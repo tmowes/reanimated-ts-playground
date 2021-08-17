@@ -12,3 +12,12 @@ export type AnimatedCardProps = UsersDataProps & {
   animatedIndex: Readonly<Animated.SharedValue<number>>
   step: number
 }
+
+export type AlternativeProps = {
+  drawerAnimatedStyle: {
+    transform: {
+      scale: number
+    }[]
+    borderRadius: number
+  }
+}
